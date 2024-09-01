@@ -1,0 +1,10 @@
+name: Simple Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run a one-liner script
+      run: echo "Hello, World!"
