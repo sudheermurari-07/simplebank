@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Print working directory
+      run: pwd
+
     - name: Set up Go 1.x
       uses: actions/setup-go@v2
       with:
