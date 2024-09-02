@@ -38,7 +38,7 @@ jobs:
 
     - name : Run migrations
       run: |
-        cd projects/simplebank
+        cd simplebank
         make migrateup
     
     - name: Run make command in project
